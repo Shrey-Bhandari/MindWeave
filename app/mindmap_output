@@ -1,0 +1,11 @@
+// MindMap
+digraph {
+	rankdir=LR
+	Root [label=MindMap]
+	slide_0 [label="Unit 1: Introduction to AI"]
+	Root -> slide_0
+	slide_1 [label="What is AI?"]
+	Root -> slide_1
+	slide_1_0 [label="Definition: Simulation of human intelligence in machines"]
+	slide_1 -> slide_1_0
+}
