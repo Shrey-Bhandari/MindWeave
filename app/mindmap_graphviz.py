@@ -1,4 +1,9 @@
 # app/mindmap_graphviz.py
+import os
+
+# Explicitly set Graphviz bin path for Python subprocess
+os.environ["PATH"] += os.pathsep + r"C:\Program Files\Graphviz\bin"
+
 
 from graphviz import Digraph
 
